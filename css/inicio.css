@@ -74,18 +74,24 @@
 
 /* Estilos para los enlaces del navbar */
 .navbar a {
-    color: white !important;  /* Mantiene el texto en blanco. Con important se Sobrescribe cualquier estilo de Bootstrap que pueda estar aplicándose por defecto. */
+    color: white !important;
+    /* Mantiene el texto en blanco. Con important se Sobrescribe cualquier estilo de Bootstrap que pueda estar aplicándose por defecto. */
     text-decoration: none;
     font-weight: bold;
-    padding: 8px 16px;  /* Añade espacio alrededor del texto para hacer el efecto más visible */
-    border-radius: 5px;  /* Bordes redondeados para que se vea mejor */
-    transition: background-color 0.3s ease-in-out;  /* Agrega una transición suave */
+    padding: 8px 16px;
+    /* Añade espacio alrededor del texto para hacer el efecto más visible */
+    border-radius: 5px;
+    /* Bordes redondeados para que se vea mejor */
+    transition: background-color 0.3s ease-in-out;
+    /* Agrega una transición suave */
 }
 
 /* Cambia el fondo y mantiene el texto en blanco cuando pasas el mouse */
 .navbar a:hover {
-    background-color: #933530 !important; /* Color de fondo en hover */
-    color: white !important;  /* Asegura que el texto siga siendo blanco */
+    background-color: #933530 !important;
+    /* Color de fondo en hover */
+    color: white !important;
+    /* Asegura que el texto siga siendo blanco */
 }
 
 
@@ -104,44 +110,79 @@ body {
 /*CARDS RUTAS*/
 
 .card-text {
-    white-space: normal; /* Evita que el texto se desborde */
+    white-space: normal;
+    /* Evita que el texto se desborde */
     word-wrap: break-word;
     overflow: hidden;
 }
 
 /*Para modificar el tamaño de las card de rutas*/
 .mi-card {
-    max-width: 450px; /* Ajusta según necesites */
-    height: auto; /* Mantiene la proporción */
+    max-width: 450px;
+    /* Ajusta según necesites */
+    height: auto;
+    /* Mantiene la proporción */
 }
 
 /*Para modificar el tamaño de la imagen de las card de rutas*/
 .mi-card-img-top {
-    height: 350px; /* Ajusta según necesites */
-    object-fit: cover; /* Recorta la imagen si es necesario */
+    height: 350px;
+    /* Ajusta según necesites */
+    object-fit: cover;
+    /* Recorta la imagen si es necesario */
 }
 
 /*Para modificar el texto de las card rutas*/
 .card-title-link {
-    text-decoration: none; /* Quita el subrayado */
-    color: inherit; /* Usa el color por defecto del texto */
+    text-decoration: none;
+    /* Quita el subrayado */
+    color: inherit;
+    /* Usa el color por defecto del texto */
 }
 
 .card-title-link:hover {
-    color: #933530; /* Color al pasar el mouse */
+    color: #933530;
+    /* Color al pasar el mouse */
 }
 
 /*ICONOS FOOTER*/
 .social-icon img {
-    width: 40px; /* Tamaño*/
+    width: 40px;
+    /* Tamaño*/
     height: auto;
     transition: transform 0.3s ease-in-out;
 }
 
 .social-icon img:hover {
-    transform: scale(1.2); /* Efecto de zoom al pasar el mouse */
+    transform: scale(1.2);
+    /* Efecto de zoom al pasar el mouse */
 }
 
-.fondo{
-    background-color: rgba(194, 192, 192, 0.5); /* Negro con 50% de transparencia */
+.fondo-subtitulo {
+    background-color: rgba(194, 192, 192, 0.5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+.imagen-circular {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    /* tamaño mediano */
+    aspect-ratio: 1 / 1;
+    /* asegura que sea un cuadrado */
+    object-fit: cover;
+    /* para cubrir el área sin deformarse */
+    border-radius: 50%;
+    /* para hacerlo circular */
+    display: block;
+    margin: 2rem auto 0 auto;
+    /* centra la imagen horizontalmente y da margen superior */
+    margin-bottom: 50px;
 }

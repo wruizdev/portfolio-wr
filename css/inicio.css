@@ -1,0 +1,147 @@
+#headerContainer {
+
+    /* border: 2px solid #933530; */
+    /* background-image: url('../img/ciudadSliderPrincipal.jpg');  */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    /* Oscurece la solo la imagen. */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+        url('../img/ciudadSliderPrincipal.jpg');
+}
+
+
+
+#headerContainer a {
+
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+
+.logo {
+
+    max-width: 150px;
+    /* Ajusta este valor según necesites */
+    height: auto;
+
+}
+
+
+#iconosRedesSocialesHeader a img {
+
+    width: 30px;
+    height: 30px;
+    /* border: 3px solid rgb(238, 242, 243); */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#tituloPrincipal {
+
+    color: white;
+
+}
+
+#descripcionTitulo {
+
+    color: white;
+    /* font-weight: bold; */
+
+
+
+}
+
+#quienesSomosContainer {
+    background-color: #933530;
+
+}
+
+#quienesSomosContainer h2 {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+}
+
+#quienesSomosContainer p {
+    color: white;
+
+}
+
+/* Estilos para los enlaces del navbar */
+.navbar a {
+    color: white !important;  /* Mantiene el texto en blanco. Con important se Sobrescribe cualquier estilo de Bootstrap que pueda estar aplicándose por defecto. */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;  /* Añade espacio alrededor del texto para hacer el efecto más visible */
+    border-radius: 5px;  /* Bordes redondeados para que se vea mejor */
+    transition: background-color 0.3s ease-in-out;  /* Agrega una transición suave */
+}
+
+/* Cambia el fondo y mantiene el texto en blanco cuando pasas el mouse */
+.navbar a:hover {
+    background-color: #933530 !important; /* Color de fondo en hover */
+    color: white !important;  /* Asegura que el texto siga siendo blanco */
+}
+
+
+.container-fluid {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*CARDS RUTAS*/
+
+.card-text {
+    white-space: normal; /* Evita que el texto se desborde */
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+/*Para modificar el tamaño de las card de rutas*/
+.mi-card {
+    max-width: 450px; /* Ajusta según necesites */
+    height: auto; /* Mantiene la proporción */
+}
+
+/*Para modificar el tamaño de la imagen de las card de rutas*/
+.mi-card-img-top {
+    height: 350px; /* Ajusta según necesites */
+    object-fit: cover; /* Recorta la imagen si es necesario */
+}
+
+/*Para modificar el texto de las card rutas*/
+.card-title-link {
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit; /* Usa el color por defecto del texto */
+}
+
+.card-title-link:hover {
+    color: #933530; /* Color al pasar el mouse */
+}
+
+/*ICONOS FOOTER*/
+.social-icon img {
+    width: 40px; /* Tamaño*/
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2); /* Efecto de zoom al pasar el mouse */
+}
+
+.fondo{
+    background-color: rgba(194, 192, 192, 0.5); /* Negro con 50% de transparencia */
+}

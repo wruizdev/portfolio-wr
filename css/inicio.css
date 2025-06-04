@@ -43,6 +43,7 @@
 #tituloPrincipal {
 
     color: white;
+   
 
 }
 
@@ -55,19 +56,19 @@
 
 }
 
-#quienesSomosContainer {
+#habilidadesContainer {
     background-color: #933530;
 
 }
 
-#quienesSomosContainer h2 {
+#habilidadesContainer h2 {
     color: white;
     padding-top: 15px;
     padding-bottom: 5px;
 
 }
 
-#quienesSomosContainer p {
+#habilidadesContainer p {
     color: white;
 
 }
@@ -173,7 +174,7 @@ body {
 .imagen-circular {
     width: 100%;
     height: auto;
-    max-width: 250px;
+    max-width: 300px;
     /* tamaño mediano */
     aspect-ratio: 1 / 1;
     /* asegura que sea un cuadrado */
@@ -186,3 +187,12 @@ body {
     /* centra la imagen horizontalmente y da margen superior */
     margin-bottom: 50px;
 }
+
+.efecto-flotante{
+    transition: transform 0.3s ease-in-out; /* transiciones suaves */
+}
+
+.efecto-flotante:hover {
+  transform: translateY(-20px); /* mueve la imagen hacia arriba 10px */
+}
+

@@ -1,355 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portfolio WR | Inicio</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/inicio.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
 
-  <body>
-    <div class="container-fluid" id="headerContainer">
-      <!-- Encabezado / Menú de navegación -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio WR | Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/inicio.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
 
-      <header class="row header">
-        <nav class="navbar navbar-expand-md" id="barraMenu">
-          <div class="container-fluid">
-            <!-- Logo -->
-            <a class="navbar-brand" href="#">
-              <img
-                class="logo"
-                src="./img/kawariLogoBlanco.png"
-                alt="Kawari Logo"
-                width="100"
-              />
+<body>
+  <div class="container-fluid" id="headerContainer">
+    <!-- Encabezado / Menú de navegación -->
+
+    <header class="row header">
+      <nav class="navbar navbar-expand-md" id="barraMenu">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="./img/kawariLogoBlanco.png" alt="Kawari Logo" width="100" />
+          </a>
+
+          <!-- Botón para dispositivos pequeños -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menú colapsable -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#inicio">Acerca de mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#habilidadesContainer">Habilidades Técnicas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-danger rounded-3 text-white" href="#estudios">Estudios</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Sección -->
+    <section class="row" id="inicio">
+      <!-- Título Principal -->
+      <h1 id="tituloPrincipal" class="col-12 col-md-6 offset-md-3 text-center pt-2 pt-md-5">
+        Portfolio William Ruiz
+      </h1>
+
+      <!-- Íconos de redes sociales -->
+      <div class="col-12 col-md-2 offset-md-1 text-center text-md-start">
+        <div id="iconosRedesSocialesHeader" class="row">
+          <div class="col col-4 col-md-6 offset-md-6">
+            <a href="#" class="mx-2"><img src="./img/icons8-facebook-nuevo-50.png" alt="Facebook"
+                class="img-fluid" /></a>
+          </div>
+
+          <div class="col col-4 col-md-6 offset-md-6">
+            <a href="./x.html" class="mx-2"><img src="./img/icons8-x-50.png" alt="Twitter" class="img-fluid" /></a>
+          </div>
+
+          <div class="col col-4 col-md-6 offset-md-6">
+            <a href="#" class="mx-2"><img src="./img/icons8-instagram-50.png" alt="Instagram" class="img-fluid" /></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Descripción -->
+
+      <div style="padding-bottom: 20px">
+        <p id="descripcionTitulo" class="text-center mx-auto col-12 col-md-8 fondo-subtitulo">
+          Desarrollador Front-End con background en Marketing Digital, Social
+          Media y creación de contenido visual
+        </p>
+      </div>
+
+      <!-- Botones -->
+
+      <div class="mt-0 mt-md-4">
+        <a href="./rutas.html" class="col-12 col-md-3 offset-md-2 mb-2 mb-md-0 btn btn-secondary rounded-3">
+          Repositorio GitHub
+        </a>
+        <a href="https://www.ejemplo.com/app" class="col-12 col-md-3 offset-md-2 btn btn-secondary rounded-3">
+          Descargar CV
+        </a>
+      </div>
+    </section>
+  </div>
+  <!-- ---------------------------------------------------------------- -->
+
+  <!-- CONTENEDOR SOBRE MI-->
+
+  <div class="container-fluid principal">
+    <div class="row g-0 ps-5 pe-5">
+      <div class="col-sm-12 col-md-6">
+        <h2 class="card-title ps-5 textoblanco pt-5">Acerca de mí</h2>
+        <img src="./img/WR-Foto.jpg" class="img-fluid imagen-circular efecto-flotante" alt="..." />
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <p class="card-text fw-bold textoblanco pt-5">¡Hola Soy Will!,</p>
+        <p class="card-text textoblanco pt-5 pb-5">
+          Desarrollador Front-End con una sólida base en Marketing Digital, Social Media y creación de contenido
+          visual.<br></br>
+          Mi enfoque principal es construir interfaces web modernas,
+          funcionales y visualmente atractivas utilizando tecnologías como
+          HTML, CSS, JavaScript y React. Más allá del código, tengo una fuerte
+          sensibilidad estética y una comprensión profunda de cómo las
+          personas interactúan con los productos digitales.<br></br> Antes de dedicarme
+          al desarrollo web, trabajé durante varios años como Social Media
+          Manager y creador de contenido visual, produciendo tanto fotografía
+          como video para diversas marcas. Esa etapa me dio una perspectiva
+          muy valiosa sobre la comunicación visual, la usabilidad y la
+          importancia de conectar con el usuario final a través de cada
+          detalle de diseño y funcionalidad.<br></br> Me considero alguien que une dos
+          mundos: el de la lógica del desarrollo con el de la creatividad del
+          marketing visual. Me apasiona crear experiencias digitales que no
+          solo funcionan bien, sino que también cuentan una historia,
+          transmiten emociones y aportan valor real.<br></br> Actualmente, sigo
+          aprendiendo y evolucionando constantemente. Me interesa todo lo
+          relacionado con el diseño web, la accesibilidad, la performance y
+          las nuevas herramientas del ecosistema Front-End. Mi meta es aportar
+          soluciones creativas y efectivas a través del desarrollo.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!--CONTENEDOR PROYECTOS-->
+
+  <div class="container-fluid colorrutas" id="proyectos">
+    <h2 class="ps-5 textoblanco pt-5">Proyectos | Repositorio</h2>
+    <div class="row mt-4 justify-content-center">
+      <!-- CARD 1 -->
+      <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+        <div class="card h-100 mi-card efecto-flotante">
+          <img src="./img/buscaMapa.jpg" class="card-img-top" alt="Busca a tu alrededor" />
+          <div class="card-body">
+            <a href="./rutas.html" class="card-title-link">
+              <h5 class="card-title">Página Web Liga FP Solidaria Cantabria</h5>
             </a>
+            <p class="card-text">
+              Tecnologías: Laravel, Bootstrap, CSS, JavaScript, SQL.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 2 -->
+      <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+        <div class="card h-100 mi-card efecto-flotante">
+          <img src="./img/buscaAlrededor.jpg" class="card-img-top" alt="Busca en el mapa" />
+          <div class="card-body">
+            <a href="https://github.com/wruizdev/proyecto-sistema-comandas-bar.git" class="card-title-link">
+              <h5 class="card-title">Sistema Gestión Mini-Bar</h5>
+            </a>
+            <p class="card-text">Tecnologías: Java, PosgresSQL.</p>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 3 -->
+      <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+        <div class="card h-100 mi-card efecto-flotante">
+          <img src="./img/historial_rutas.jpg" class="card-img-top" alt="Historial de rutas" />
+          <div class="card-body">
+            <a href="./rutas.html" class="card-title-link">
+              <h5 class="card-title">Juego Consultas SQL</h5>
+            </a>
+            <p class="card-text">Tecnologías: PHP, CSS, SQL.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-            <!-- Botón para dispositivos pequeños -->
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
+  <!--CONTENEDOR HABILIDADES TÉCNICAS-->
+  <div class="container-fluid" id="habilidadesContainer">
+    <div class="row">
+      <!-- REVISAR proporciones de la imagen -->
+      <div class="col col-12 col-md-6" style="padding-left: 0px; padding-right: 0px">
+        <img src="img/quienesSomos.jpg" alt="laImagen" style="width: 100%; height: 100%; object-fit: cover" />
+      </div>
+
+      <div class="col col-12 col-md-6">
+        <div class="row d-flex justify-content-center align-items-center">
+          <h2 class="col col-12 text-center pt-5">Habilidades Técnicas</h2>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col col-auto text-wrap">
+            <p>
+              A lo largo de mi recorrido como desarrollador Front-End he trabajado con diversas herramientas y
+              tecnologías que me permiten construir interfaces modernas, eficientes y visualmente atractivas. Estas son
+              algunas de las principales tecnologías que manejo y que utilizo en mis proyectos para transformar ideas en
+              experiencias digitales funcionales:
+            </p>
+          </div>
+
+          <div class="col col-6 d-flex justify-content-center">
+            <button class="btn btn-secondary rounded-3 mb-3">
+              Contáctanos
             </button>
-
-            <!-- Menú colapsable -->
-            <div
-              class="collapse navbar-collapse justify-content-end"
-              id="navbarNav"
-            >
-              <ul class="navbar-nav text-center">
-                <li class="nav-item">
-                  <a class="nav-link" href="#inicio">Acerca de mí</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#proyectos">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#habilidadesContainer"
-                    >Habilidades Técnicas</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link btn btn-danger rounded-3 text-white"
-                    href="#estudios"
-                    >Estudios</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-
-      <!-- Sección -->
-      <section class="row" id="inicio">
-        <!-- Título Principal -->
-        <h1
-          id="tituloPrincipal"
-          class="col-12 col-md-6 offset-md-3 text-center pt-2 pt-md-5"
-        >
-          Portfolio William Ruiz
-        </h1>
-
-        <!-- Íconos de redes sociales -->
-        <div class="col-12 col-md-2 offset-md-1 text-center text-md-start">
-          <div id="iconosRedesSocialesHeader" class="row">
-            <div class="col col-4 col-md-6 offset-md-6">
-              <a href="#" class="mx-2"
-                ><img
-                  src="./img/icons8-facebook-nuevo-50.png"
-                  alt="Facebook"
-                  class="img-fluid"
-              /></a>
-            </div>
-
-            <div class="col col-4 col-md-6 offset-md-6">
-              <a href="./x.html" class="mx-2"
-                ><img
-                  src="./img/icons8-x-50.png"
-                  alt="Twitter"
-                  class="img-fluid"
-              /></a>
-            </div>
-
-            <div class="col col-4 col-md-6 offset-md-6">
-              <a href="#" class="mx-2"
-                ><img
-                  src="./img/icons8-instagram-50.png"
-                  alt="Instagram"
-                  class="img-fluid"
-              /></a>
-            </div>
           </div>
         </div>
-
-        <!-- Descripción -->
-
-        <div style="padding-bottom: 20px">
-          <p
-            id="descripcionTitulo"
-            class="text-center mx-auto col-12 col-md-8 fondo-subtitulo"
-          >
-            Desarrollador Front-End con background en Marketing Digital, Social
-            Media y creación de contenido visual
-          </p>
-        </div>
-
-        <!-- Botones -->
-
-        <div class="mt-0 mt-md-4">
-          <a
-            href="./rutas.html"
-            class="col-12 col-md-3 offset-md-2 mb-2 mb-md-0 btn btn-secondary rounded-3"
-          >
-            Repositorio GitHub
-          </a>
-          <a
-            href="https://www.ejemplo.com/app"
-            class="col-12 col-md-3 offset-md-2 btn btn-secondary rounded-3"
-          >
-            Descargar CV
-          </a>
-        </div>
-      </section>
+      </div>
     </div>
-    <!-- ---------------------------------------------------------------- -->
+  </div>
+  <!-- ----------------------------------------------------------------------------------------- -->
 
-    <!-- CONTENEDOR SOBRE MI-->
-
-    <div class="container-fluid principal">
+  <!--CONTENEDOR ESTUDIOS-->
+  <div class="container-fluid rosa" id="estudios">
+    <h2 class="card-title ps-5 textoblanco pt-5">Estudios</h2>
+    <div class="card mb-3 border-0 rosa">
       <div class="row g-0 ps-5 pe-5">
-        <div class="col-sm-12 col-md-6">
-          <h2 class="card-title ps-5 textoblanco pt-5">Acerca de mí</h2>
-          <img
-            src="./img/WR-Foto.jpg"
-            class="img-fluid imagen-circular efecto-flotante"
-            alt="..."
-          />
+        <div class="col-sm-12 col-md-6 pt-5">
+          <!--FORMULARIO-->
+
+          <div class="card-body">
+            <p class="card-text fw-bold textoblanco ps-4">
+              Escríbenos en este formulario
+            </p>
+            <!--empieza el form-->
+            <div class="mb-3">
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Asunto" />
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Dirección de correo" />
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Cuéntanos" />
+            </div>
+          </div>
         </div>
-        <div class="col-sm-12 col-md-6">
-          <p class="card-text fw-bold textoblanco pt-5">¡Hola Soy Will!,</p>
-          <p class="card-text textoblanco pt-5 pb-5">
-            Desarrollador Front-End con una sólida base en Marketing Digital, Social Media y creación de contenido visual.<br></br>
-            Mi enfoque principal es construir interfaces web modernas,
-            funcionales y visualmente atractivas utilizando tecnologías como
-            HTML, CSS, JavaScript y React. Más allá del código, tengo una fuerte
-            sensibilidad estética y una comprensión profunda de cómo las
-            personas interactúan con los productos digitales.<br></br> Antes de dedicarme
-            al desarrollo web, trabajé durante varios años como Social Media
-            Manager y creador de contenido visual, produciendo tanto fotografía
-            como video para diversas marcas. Esa etapa me dio una perspectiva
-            muy valiosa sobre la comunicación visual, la usabilidad y la
-            importancia de conectar con el usuario final a través de cada
-            detalle de diseño y funcionalidad.<br></br> Me considero alguien que une dos
-            mundos: el de la lógica del desarrollo con el de la creatividad del
-            marketing visual. Me apasiona crear experiencias digitales que no
-            solo funcionan bien, sino que también cuentan una historia,
-            transmiten emociones y aportan valor real.<br></br> Actualmente, sigo
-            aprendiendo y evolucionando constantemente. Me interesa todo lo
-            relacionado con el diseño web, la accesibilidad, la performance y
-            las nuevas herramientas del ecosistema Front-End. Mi meta es aportar
-            soluciones creativas y efectivas a través del desarrollo.
-          </p>
+        <!--IMAGEN-->
+        <div class="col-sm-12 col-md-5 py-5 ps-5">
+          <img src="./img/icons8-sobre-circulado-432.png" class="img-fluid rounded-start w-75" alt="..." />
         </div>
       </div>
     </div>
+  </div>
 
-    <!--CONTENEDOR PROYECTOS-->
+  <div id="footerContainer"></div>
+  <script src="./js/footer.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
 
-    <div class="container-fluid colorrutas" id="proyectos">
-      <h2 class="ps-5 textoblanco pt-5">Proyectos | Repositorio</h2>
-      <div class="row mt-4 justify-content-center">
-        <!-- CARD 1 -->
-        <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
-          <div class="card h-100 mi-card efecto-flotante">
-            <img
-              src="./img/buscaMapa.jpg"
-              class="card-img-top"
-              alt="Busca a tu alrededor"
-            />
-            <div class="card-body">
-              <a href="./rutas.html" class="card-title-link">
-                <h5 class="card-title">Página Web Liga FP Solidaria Cantabria</h5>
-              </a>
-              <p class="card-text">
-                Tecnologías: Laravel, Bootstrap, CSS, JavaScript, SQL.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- CARD 2 -->
-        <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
-          <div class="card h-100 mi-card efecto-flotante">
-            <img
-              src="./img/buscaAlrededor.jpg"
-              class="card-img-top"
-              alt="Busca en el mapa"
-            />
-            <div class="card-body">
-              <a href="https://github.com/wruizdev/proyecto-sistema-comandas-bar.git" class="card-title-link">
-                <h5 class="card-title">Sistema Gestión Mini-Bar</h5>
-              </a>
-              <p class="card-text">Tecnologías: Java, PosgresSQL.</p>
-            </div>
-          </div>
-        </div>
-        <!-- CARD 3 -->
-        <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
-          <div class="card h-100 mi-card efecto-flotante">
-            <img
-              src="./img/historial_rutas.jpg"
-              class="card-img-top"
-              alt="Historial de rutas"
-            />
-            <div class="card-body">
-              <a href="./rutas.html" class="card-title-link">
-                <h5 class="card-title">Juego Consultas SQL</h5>
-              </a>
-              <p class="card-text">Tecnologías: PHP, CSS, SQL.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--CONTENEDOR HABILIDADES TÉCNICAS-->
-    <div class="container-fluid" id="habilidadesContainer">
-      <div class="row">
-        <!-- REVISAR proporciones de la imagen -->
-        <div
-          class="col col-12 col-md-6"
-          style="padding-left: 0px; padding-right: 0px"
-        >
-          <img
-            src="img/quienesSomos.jpg"
-            alt="laImagen"
-            style="width: 100%; height: 100%; object-fit: cover"
-          />
-        </div>
-
-        <div class="col col-12 col-md-6">
-          <div class="row d-flex justify-content-center align-items-center">
-            <h2 class="col col-12 text-center pt-5">Habilidades Técnicas</h2>
-          </div>
-
-          <div class="row d-flex justify-content-center">
-            <div class="col col-auto text-wrap">
-              <p>
-                En Kawari, creemos en el poder de la transformacion hacia un
-                entorno urbano mas seguro y accesible para todos. inspirados en
-                el significado de nuestro nombre, que significa "cambiar" o
-                "transformarse", nuestra mision es facilitar el desplazamiento
-                de las personas en la ciudad, guiandolas a traves de las rutas
-                mas seguras. Kawari es una aplicacion móvil que ultiliza
-                tecnología avanzada de geolocalización y actualizaciones en
-                tiempo real para ofrecer a cada usuario las rutas óptimas y
-                seguras, ya ea que se desplacen caminando, en bicicleta o en
-                automovil.
-              </p>
-            </div>
-
-            <div class="col col-6 d-flex justify-content-center">
-              <button class="btn btn-secondary rounded-3 mb-3">
-                Contáctanos
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ----------------------------------------------------------------------------------------- -->
-
-    <!--CONTENEDOR ESTUDIOS-->
-    <div class="container-fluid rosa" id="estudios">
-      <h2 class="card-title ps-5 textoblanco pt-5">Estudios</h2>
-      <div class="card mb-3 border-0 rosa">
-        <div class="row g-0 ps-5 pe-5">
-          <div class="col-sm-12 col-md-6 pt-5">
-            <!--FORMULARIO-->
-
-            <div class="card-body">
-              <p class="card-text fw-bold textoblanco ps-4">
-                Escríbenos en este formulario
-              </p>
-              <!--empieza el form-->
-              <div class="mb-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="formGroupExampleInput"
-                  placeholder="Asunto"
-                />
-              </div>
-              <div class="mb-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="formGroupExampleInput2"
-                  placeholder="Dirección de correo"
-                />
-              </div>
-              <div class="mb-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="formGroupExampleInput3"
-                  placeholder="Cuéntanos"
-                />
-              </div>
-            </div>
-          </div>
-          <!--IMAGEN-->
-          <div class="col-sm-12 col-md-5 py-5 ps-5">
-            <img
-              src="./img/icons8-sobre-circulado-432.png"
-              class="img-fluid rounded-start w-75"
-              alt="..."
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="footerContainer"></div>
-    <script src="./js/footer.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>

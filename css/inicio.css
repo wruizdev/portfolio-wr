@@ -7,7 +7,7 @@
   width: 100%;
   /* Oscurece la solo la imagen. */
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
-    url("../img/ciudadSliderPrincipal.jpg");
+    url("../img/ciy-night.jpg");
 }
 
 #headerContainer a {

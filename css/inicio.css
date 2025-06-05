@@ -259,3 +259,18 @@ body {
     color: #6c757d !important;
     background-color: white !important;
 }
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  animation: slideInLeft 1s ease-out forwards;
+}

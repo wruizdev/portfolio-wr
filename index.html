@@ -9,6 +9,8 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   <link rel="stylesheet" href="./css/inicio.css" />
   <link rel="stylesheet" href="./css/styles.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -103,12 +105,12 @@
   <div class="container-fluid principal">
     <div class="row g-0 ps-5 pe-5">
       <div class="col-sm-12 col-md-6">
-        <h2 class="card-title ps-5 textoblanco pt-5">Acerca de mí</h2>
+        <h2 class="card-title ps-5 textoblanco pt-5" data-aos="fade-left">Acerca de mí</h2>
         <img src="./img/WR-Foto.jpg" class="img-fluid imagen-circular efecto-flotante" alt="..." />
       </div>
       <div class="col-sm-12 col-md-6">
-        <p class="card-text fw-bold textoblanco pt-5">¡Hola Soy Will!,</p>
-        <p class="card-text textoblanco pt-5 pb-5">
+        <p class="card-text fw-bold textoblanco pt-5" data-aos="fade-left">¡Hola Soy Will!,</p>
+        <p class="card-text textoblanco pt-5 pb-5" data-aos="fade-left">
           Desarrollador Front-End con una sólida base en Marketing Digital, Social Media y creación de contenido
           visual.<br></br>
           Mi enfoque principal es construir interfaces web modernas,
@@ -138,7 +140,7 @@
   <!--CONTENEDOR PROYECTOS-->
 
   <div class="container-fluid colorrutas" id="proyectos">
-    <h2 class="ps-5 textoblanco pt-5">Proyectos | Repositorio</h2>
+    <h2 class="ps-5 textoblanco pt-5" data-aos="fade-left">Proyectos | Repositorio</h2>
     <div class="row mt-4 justify-content-center">
       <!-- CARD 1 -->
       <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
@@ -191,7 +193,7 @@
 
       <div class="col col-12 col-md-6">
         <div class="row d-flex justify-content-center align-items-center">
-          <h2 class="col col-12 text-center pt-5">Habilidades Técnicas</h2>
+          <h2 class="col col-12 text-center pt-5" data-aos="fade-left">Habilidades Técnicas</h2>
         </div>
 
         <div class="row d-flex justify-content-center separacion">
@@ -242,7 +244,7 @@
                     </div>
                   </div>
 
-                   <div class="fila-progreso">
+                  <div class="fila-progreso">
                     <span class="etiqueta">CSS</span>
                     <div class="barra-contenedor">
                       <div class="barra-progreso" id="css"></div>
@@ -252,7 +254,7 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-  
+
                 </div>
               </div>
             </div>
@@ -267,7 +269,7 @@
 
   <!--CONTENEDOR ESTUDIOS-->
   <div class="container-fluid colorrutas" id="estudios">
-    <h2 class="card-title ps-5 textoblanco pt-5">Estudios</h2>
+    <h2 class="card-title ps-5 textoblanco pt-5" data-aos="fade-left">Estudios</h2>
     <div class="card mb-3 border-0 colorrutas">
       <div class="row g-0 ps-5 pe-5">
         <div class="col-sm-12 col-md-6 pt-5">
@@ -302,6 +304,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000, // duración de la animación (ms)
+      once: true      // solo animar una vez
+    });
+  </script>
+
 </body>
 
 </html>

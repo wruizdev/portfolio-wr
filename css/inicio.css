@@ -261,4 +261,93 @@ body {
     background-color: white !important;
 }
 
+.text-card-carousel {
+    max-width: 500px;
+    background-color: #f8f9fa;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
 
+  .text-card-carousel p {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+  }
+
+  .card-estudios-text {
+  white-space: normal;
+  /* Evita que el texto se desborde */
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+/*Para modificar el tamaño de las card de rutas*/
+.mi-card-estudios {
+  max-width: 300px;
+  /* Ajusta según necesites */
+  height: auto;
+  /* Mantiene la proporción */
+  
+}
+
+.mi-card-estudios:hover {
+    background-color: #933530;
+}
+
+.mi-card-estudios:hover a{
+    color: white;
+}
+
+.mi-card-estudios:hover p{
+    color: white;
+}
+/*Para modificar el tamaño de la imagen de las card de rutas*/
+.mi-card-estudios-img-top {
+   width: 100%;
+  height: auto;
+  max-width: 100px;
+  /* tamaño mediano */
+  aspect-ratio: 1 / 1;
+  /* asegura que sea un cuadrado */
+  object-fit: cover;
+  /* para cubrir el área sin deformarse */
+  border-radius: 50%;
+  /* para hacerlo circular */
+  display: block;
+  margin: 2rem auto 0 auto;
+  /* centra la imagen horizontalmente y da margen superior */
+  margin-bottom: 50px;
+}
+
+/*Para modificar el texto de las card rutas*/
+.card-estudios-title-link {
+  text-decoration: none;
+  /* Quita el subrayado */
+  color: inherit;
+  /* Usa el color por defecto del texto */
+}
+
+.card-estudios-title-link:hover {
+  color: #933530;
+  /* Color al pasar el mouse */
+}
+
+.texto-peq-estudios{
+    font-size: 10px !important;
+    font-weight: bolder !important;
+    margin-top: -10px;
+}
+
+@media(max-width:530px){
+    #contenedor-estudios{
+        display: grid;
+    }
+}

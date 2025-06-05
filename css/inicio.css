@@ -137,6 +137,7 @@ body {
   /* Efecto de zoom al pasar el mouse */
 }
 
+/* FONDO DEL SUBTITULO DEL HEADER*/
 .fondo-subtitulo {
   background-color: rgba(151, 150, 150, 0.5);
   border-radius: 10px;
@@ -146,7 +147,7 @@ body {
   padding: 10px;
   text-align: center;
 }
-
+/*IMAGEN BLOQUE ACERCA DE MI*/
 .imagen-circular {
   width: 100%;
   height: auto;
@@ -163,7 +164,7 @@ body {
   /* centra la imagen horizontalmente y da margen superior */
   margin-bottom: 50px;
 }
-
+/* EFECTO FLOTANTE EJE Y ELEMENTOS*/
 .efecto-flotante {
   transition: transform 0.3s ease-in-out; /* transiciones suaves */
 }
@@ -171,17 +172,17 @@ body {
 .efecto-flotante:hover {
   transform: translateY(-20px); /* mueve la imagen hacia arriba 10px */
 }
-
+/*ESTILOS BTN BLOQUE HABILIDADES*/
 .btn-habilidades {
   width: 150px;
   background-color: #6c757d !important; /* o el color que tú quieras */
   border-color: #6c757d !important; /* para que coincida el borde */
 }
-
+/*MB PARA SERPARAR ELEMENTOS POR ABAJO*/
 .separacion{
     margin-bottom: 20px !important;
 }
-
+/*ESTILOS PARA CONTENIDO MODAL HABILIDADES*/
 .fila-progreso {
   display: flex;
   align-items: center;
@@ -246,11 +247,11 @@ body {
     width: 50%;
     background-color: rgb(54, 43, 151);
 }
-
+/*TAMAÑO DEL ICONO VERIFICADO*/
 .logo-sitio{
     width: 33px !important;
 }
-
+/*CLASE PARA CAMBIAR BORDE BOTONES Y AÑADIR EFECTO HOVER*/
 .borde-btn{
     border-radius: 19px !important;
 }
@@ -260,17 +261,4 @@ body {
     background-color: white !important;
 }
 
-@keyframes slideInLeft {
-  from {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
 
-.slide-in-left {
-  animation: slideInLeft 1s ease-out forwards;
-}

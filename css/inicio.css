@@ -138,7 +138,7 @@ body {
 }
 
 .fondo-subtitulo {
-  background-color: rgba(194, 192, 192, 0.5);
+  background-color: rgba(151, 150, 150, 0.5);
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -249,4 +249,13 @@ body {
 
 .logo-sitio{
     width: 33px !important;
+}
+
+.borde-btn{
+    border-radius: 19px !important;
+}
+
+.borde-btn:hover{
+    color: #6c757d !important;
+    background-color: white !important;
 }

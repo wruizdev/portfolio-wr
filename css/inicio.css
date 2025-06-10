@@ -358,9 +358,10 @@ body {
 }
 
 .skill-name {
-  font-weight: bold;
-  margin-bottom: 5px;
-  display: block;
+  display: inline-block; /* necesario para que width tenga efecto */
+  width: 100px; /* ajusta el valor según el texto más largo */
+  text-align: right; /* o left, center según lo que desees */
+  margin-right: 10px; /* espaciado con la barra de progreso */
 }
 
 .progress-container {
@@ -374,7 +375,7 @@ body {
 .progress-bar {
   width: 0%;
   height: 100%;
-  background-color: #6c757d;
+  background-color: #6c757d ;
   transition: width 2s ease;
 }
 

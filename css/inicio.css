@@ -352,3 +352,36 @@ body {
     }
 }
 
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.progress-container {
+  width: 60%;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 15px;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 100%;
+  background-color: #6c757d;
+  transition: width 2s ease;
+}
+
+.arreglo-skill{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
